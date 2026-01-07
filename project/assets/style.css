@@ -1,0 +1,253 @@
+/* =====================
+   GLOBAL RESET
+===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    background: #F4F6F9;
+    color: #374151;
+}
+
+/* =====================
+   WRAPPER & MAIN
+===================== */
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =====================
+   SIDEBAR
+===================== */
+.sidebar {
+    width: 240px;
+    background: #1E3A8A;
+    color: white;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
+}
+
+/* =====================
+   TOPBAR
+===================== */
+.topbar {
+    background: #ffffff;
+    padding: 25px 40px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.topbar h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #1E3A8A;
+}
+
+.topbar small {
+    color: #6B7280;
+}
+
+/* =====================
+   CONTENT
+===================== */
+.content {
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* =====================
+   TOOLBAR
+===================== */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.search-form {
+    display: flex;
+    gap: 8px;
+}
+
+/* =====================
+   DASHBOARD CARD
+===================== */
+.dashboard-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.dashboard-box h1 {
+    margin-top: 0;
+    color: #1E3A8A;
+}
+
+/* =====================
+   TABLE
+===================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+table th {
+    background: #1E3A8A;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #E5E7EB;
+    vertical-align: middle;
+}
+
+table tr:nth-child(even) {
+    background: #F9FAFB;
+}
+
+td img {
+    border-radius: 6px;
+}
+
+/* =====================
+   FORM
+===================== */
+.form-box {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #3B82F6;
+}
+
+/* =====================
+   BUTTON
+===================== */
+button, .btn {
+    background: #3B82F6;
+    color: #ffffff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background: #2563EB;
+}
+
+.btn-danger {
+    background: #DC2626;
+}
+
+.btn-danger:hover {
+    background: #B91C1C;
+}
+
+/* =====================
+   LOGIN
+===================== */
+.login-box {
+    width: 360px;
+    margin: 120px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #1E3A8A;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    color: #6B7280;
+    font-size: 14px;
+    border-top: 1px solid #E5E7EB;
+    background: #ffffff;
+}
